@@ -23,4 +23,4 @@ try:
 	version = re.findall(pattern,code)
 	print "Joomla Version: " + version[0]
 except:
-	print "Can't detect verison. sorry :("
+	print "Can't detect version. sorry :("
